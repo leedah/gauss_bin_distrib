@@ -11,7 +11,9 @@ Gaussian and Binomial probability distributions
 - calculate_stdev()
 - pdf(x)
 - __add__(other_distribution)
-  other_distribution must be of the same type, and if it binomial must have the same p
+  other_distribution must be of the same type.
+  
+  Addition for binomials with different p values is not supported at the moment.
 - __repr__()
 
 ### Gaussian distribution methods
